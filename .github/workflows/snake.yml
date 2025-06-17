@@ -1,34 +1,31 @@
-name: Generate Snake 🐍
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # roda todo dia à meia-noite (UTC)
-  workflow_dispatch:     # permite rodar manualmente pelo botão no GitHub
+    - cron: "0 0 * * *"    # executa diariamente à meia-noite UTC
+  workflow_dispatch:       # permite rodar manualmente
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      # Clona o repositório
       - name: Checkout do repositório
         uses: actions/checkout@v3
 
-      # Gera a cobrinha
-      - name: Gerar cobrinha SVG
+      - name: Gerar snake SVG (v3)
         uses: Platane/snk@v3
         with:
-          github_user_name: brizadev
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            ./output/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Faz commit automático do SVG
-      - name: Commit e Push
-        uses: EndBug/add-and-commit@v9
+      - name: Commit e push para branch `output`
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          author_name: github-actions
-          author_email: github-actions@github.com
-          message: "🐍 Atualizando cobrinha"
-          add: "output/github-contribution-grid-snake.svg"
+          target_branch: output
+          build_dir: dist
+          commit_message: "🐍 Atualizando snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
