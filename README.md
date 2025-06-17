@@ -8,11 +8,11 @@
 
 ## 👨‍💻 Sobre mim
 
-- 🎓 Estudante de Engenharia de Software na UNIGRAN Dourados (MS)
-- 🧠 Desenvolvedor com foco em alta performance e profissionalismo
-- 🚀 Crio sistemas criativos e divertidos com frontend e backend
-- 💡 Experiência com projetos em ASP.NET, Electron, Firebase e JS
-- 🛠️ Sempre aprendendo, sempre evoluindo
+- 🎓 Estudante de Engenharia de Software na UNIGRAN Dourados (MS)  
+- 🧠 Desenvolvedor com foco em alta performance e profissionalismo  
+- 🚀 Crio sistemas criativos e divertidos com frontend e backend  
+- 💡 Experiência com projetos em ASP.NET, Electron, Firebase e JS  
+- 🛠️ Sempre aprendendo, sempre evoluindo  
 
 ---
 
@@ -52,10 +52,9 @@ Um exercício de lógica e boas práticas no terminal com operações matemátic
 
 ---
 
+## 🐍 Snake em ação
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brizadev/brizadev/output/github-contribution-grid-snake-dark.svg" />
   <img alt="GitHub Snake" src="https://raw.githubusercontent.com/brizadev/brizadev/main/output/github-contribution-grid-snake.svg" />
 </picture>
-
-
-
