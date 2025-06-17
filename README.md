@@ -52,8 +52,10 @@ Um exercício de lógica e boas práticas no terminal com operações matemátic
 
 ---
 
-### 🐍 Snake em ação
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brizadev/brizadev/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/brizadev/brizadev/output/github-contribution-grid-snake.svg" />
+</picture>
 
-![snake gif](https://raw.githubusercontent.com/brizadev/brizadev/output/github-contribution-grid-snake.svg)
 
 
