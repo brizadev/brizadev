@@ -57,3 +57,4 @@ Um exercício de lógica e boas práticas no terminal com operações matemátic
 ```md
 ![snake gif](https://raw.githubusercontent.com/brizadev/brizadev/output/github-contribution-grid-snake.svg)
 
+
