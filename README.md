@@ -55,4 +55,5 @@ Um exercício de lógica e boas práticas no terminal com operações matemátic
 ## 🐍 Snake dos Commits
 
 ```md
-![snake gif](https://github.com/brizadev/brizadev/blob/main/.github/workflows/snake.yml))
+![snake gif](https://raw.githubusercontent.com/brizadev/brizadev/output/github-contribution-grid-snake.svg)
+
