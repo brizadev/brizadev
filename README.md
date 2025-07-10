@@ -52,7 +52,7 @@ Um exercício de lógica e boas práticas no terminal com operações matemátic
 
 ---
 
-## 🐍 Snake em ação
+
 
 <picture align="center">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brizadev/brizadev/output/github-contribution-grid-snake-dark.svg">
