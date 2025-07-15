@@ -1,7 +1,7 @@
 <h1 align="center">Bem vindo ao meu perfil 👋</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" alt="coding gif"/>
+  <img src="./banner.png" alt="Banner do perfil" width="100%" />
 </p>
 
 ---
