@@ -1,5 +1,4 @@
 <h1 align="center">Bem vindo ao meu perfil 👋</h1>
-
 <p align="center">
   <img src="./banner.png" alt="Banner do perfil" width="100%" />
 </p>
