@@ -5,7 +5,7 @@
 
 
 
-## 👨‍💻 Sobre mim
+ 👨‍💻 Sobre mim
 
 - 🎓 Estudante de Engenharia de Software na UNIGRAN Dourados (MS)  
 - 🧠 Desenvolvedor com foco em alta performance e profissionalismo  
